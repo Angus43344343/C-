@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{664434c4-9d58-4faa-86f9-ad99f64d01bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{ebcf5736-c3c7-47bf-ad11-d71fa3f301a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="mainctrl">
+      <UniqueIdentifier>{d7cceb7f-b2b5-4200-95c4-4cd31cf13aed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IndustrialCamera.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="IndustrialCameraDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="sock.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="checkSum.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="uart.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>mainctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="sockproc.h">
+      <Filter>mainctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="uartproc.h">
+      <Filter>mainctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="mainctrl.h">
+      <Filter>mainctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="SetParam.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgAnalysis.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="setprminfo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IndustrialCamera.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="IndustrialCameraDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="sock.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="checkSum.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="uart.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>mainctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="sockproc.cpp">
+      <Filter>mainctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="uartproc.cpp">
+      <Filter>mainctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="mainctrl.cpp">
+      <Filter>mainctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="SetParam.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgAnalysis.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IndustrialCamera.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\IndustrialCamera.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\IndustrialCamera.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
